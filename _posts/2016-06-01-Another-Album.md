@@ -1,5 +1,5 @@
 ---
-layout: album
+layout: post
 share: true
 comments: true
 image:
