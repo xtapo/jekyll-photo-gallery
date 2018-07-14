@@ -32,14 +32,14 @@ markdown: kramdown
 #Jekyll-Photo-Gallery Settings
 exiftag:
  sources:
-   - images/photography #Set to location of photos
+   - uploads/album #Set to location of photos
 
 #MiniMagick
 #https://github.com/zroger/jekyll-minimagick
 mini_magick:
     photography:
-        source: images/photography
-        destination: images/photography/thumbnails
+        source: uploads/album
+        destination: uploads/album/thumbnails
         resize: "1280x720"
     headers:
         source: images/headers
