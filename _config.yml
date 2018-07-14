@@ -30,9 +30,9 @@ owner:
 markdown: kramdown
 
 #Jekyll-Photo-Gallery Settings
-exiftag:
- sources:
-   - uploads/album #Set to location of photos
+#exiftag:
+ #sources:
+  # - uploads/album #Set to location of photos
 
 #MiniMagick
 #https://github.com/zroger/jekyll-minimagick
