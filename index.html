@@ -1,5 +1,11 @@
 ---
 layout: default
+
+galleries:
+  - title: Link to image gallery
+    image: /uploads/album/camry.jpg
+    url: https://www.facebook.com/
+
 ---
 
 <div class="home">
@@ -7,7 +13,7 @@ layout: default
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% include image-gallery.html folder="/uploads" %}
+    {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
         
   </ul>
 
