@@ -6,4 +6,4 @@ image:
   thumbnail: IMG_4075.jpg
 ---
 
-{% includeGallery UsaSommer2015 %}
+{% include image-gallery.html folder="/uploads/album" %}
