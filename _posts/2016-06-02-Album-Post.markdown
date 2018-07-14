@@ -9,4 +9,4 @@ categories: jekyll photo-gallery
 This is a post containing an embedded gallery. Embedding a gallery is really easy. All you do is call the gallery plugin via 
 `{% raw %}{% includeGallery yourAlbumeName %}{% endraw %}`.
 
-{% includeGallery UsaSommer2015 %}
+{% include image-gallery.html folder="/uploads/album" %}
