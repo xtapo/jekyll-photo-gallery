@@ -4,4 +4,4 @@
     .image-gallery a img {width: 100%; display: block;}
 </style>
 
-<p class="image-gallery">{% for file in site.static_files %}{% if file.path contains include.folder %}{% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}<a href="/jekyll-photo-gallery{{ file.path }}"><img src="{{ site.url}}/jekyll-photo-gallery{{ file.path }}" alt="{{ item.title }}"/></a>{% endif %}{% endif %}{% endfor %}</p>
+<p class="image-gallery">{% for file in site.static_files %}{% if file.path contains include.folder %}{% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}<a href="/jekyll-photo-gallery{{ file.path }}"><img src="{{ site.url}}/jekyll-photo-gallery{{ file.path }}" alt="{{ item.alt }}"/></a>{% endif %}{% endif %}{% endfor %}</p>
